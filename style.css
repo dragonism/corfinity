@@ -16,7 +16,7 @@
 }
 
 .text {
-  utline: none;
+  outline: none;
   border: none;
   background-color: black;
   color: white;
@@ -27,7 +27,6 @@
   border-radius: 10px;
   transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
   position: absolute;
-  left: 50%; /* relative to nearest positioned ancestor or body element */
+  left: 48.5%; /* relative to nearest positioned ancestor or body element */
   top: 65%; /*  relative to nearest positioned ancestor or body element */
-  text-align: center;
 }
