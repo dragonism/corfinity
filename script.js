@@ -1,11 +1,26 @@
  var Tips = [
-   'Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.',
-   'Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.',
    'Avoid touching eyes, nose and mouth',
    'Practice respiratory hygiene',
    'If you have fever, cough and difficulty breathing, seek medical care early',
-   '',
-   ''
+   'Stay informed and follow advice given by your healthcare provider ',
+   'Strengthen health screening for cafeteria staff and their close contacts',
+   'Ensure cafeteria staff and their close contacts practice strict hygiene',
+   'Stop handshaking – use other noncontact methods of greeting',
+   'Clean hands at the door and at regular intervals',
+   'Create habits and reminders to avoid touching their faces and cover coughs and sneezes',
+   'Disinfect surfaces like doorknobs, tables, desks, and handrails regularly',
+   'Increase ventilation by opening windows or adjusting air conditioning',
+   'Adjust after-school arrangements to avoid mixing between classes and grades',
+   'When possible, hold classes outdoors or in open, well-ventilated spaces',
+   'Strengthen health screening for cafeteria staff and their close contacts',
+   'Create habits and reminders to avoid touching their face and cover coughs and sneezes',
+   'Disinfect surfaces like doorknobs, tables, and handrails regularly',
+   'Increase ventilation by opening windows or adjusting air conditioning',
+   'If possible, provide a protected space for vulnerable household members',
+   'Ensure all utensils and surfaces are cleaned regularly',
+   'Give sick members their own room if possible, and keep the door closed',
+   'Have only one roommate/family member to care for a sick roommate/family member',
+   'Keep windows open when possible in cars'
  ]
 
 function newTip() { 
@@ -38,4 +53,4 @@ function notifyMe() {
 
 window.setInterval(function(){
   notifyMe();
-}, 1800000);
+}, 30000);
