@@ -1,12 +1,13 @@
 .microcenter {
   font-family: "Montserrat", serif;
   font-size: 40px;
+  color
 }
 
 .text {
   outline: none;
   border: none;
-  background-color: black;
+  background-color: #ff6666;
   color: white;
   font-family: "Montserrat", serif;
   font-size: 30px;
