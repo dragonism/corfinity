@@ -1,18 +1,6 @@
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .microcenter {
   font-family: "Montserrat", serif;
   font-size: 40px;
-  width: 50%;
-  position: absolute;
-  left: 50%; /* relative to nearest positioned ancestor or body element */
-  top: 50%; /*  relative to nearest positioned ancestor or body element */
-  transform: translate(-50%, -50%); /* relative to element's height & width */
-  text-align: center;
 }
 
 .text {
@@ -20,13 +8,20 @@
   border: none;
   background-color: black;
   color: white;
-  width: 50px;
-  height: 50px;
   font-family: "Montserrat", serif;
   font-size: 30px;
-  border-radius: 10px;
+  border-radius: 15px;
   transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
-  position: absolute;
-  left: 48.5%; /* relative to nearest positioned ancestor or body element */
-  top: 65%; /*  relative to nearest positioned ancestor or body element */
+  cursor: pointer;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  overflow-x: hidden;
+  white-space: nowrap;
 }
