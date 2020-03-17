@@ -1,9 +1,11 @@
  var Tips = [
-   'Tip #1',
-   'Tip #2',
-   'Tip #3',
-   'Tip #4',
-   'Tip #5'
+   'Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.',
+   'Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.',
+   'Avoid touching eyes, nose and mouth',
+   'Practice respiratory hygiene',
+   'If you have fever, cough and difficulty breathing, seek medical care early',
+   '',
+   ''
  ]
 
 function newTip() { 
@@ -20,7 +22,7 @@ function notifyMe() {
   // Let's check whether notification permissions have already been granted
   else if (Notification.permission === "granted") {
     var randomNumber = Math.floor(Math.random() * (Tips.length));
-    var notification = new Notification(randomNumber);
+    var notification = new Notification(Tips[randomNumber]);
   }
 
   // Otherwise, we need to ask the user for permission
@@ -33,3 +35,7 @@ function notifyMe() {
     });
   }
 }
+
+window.setInterval(function(){
+  notifyMe();
+}, 1800000);
