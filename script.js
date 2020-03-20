@@ -36,8 +36,7 @@ function notifyMe() {
 
   // Let's check whether notification permissions have already been granted
   else if (Notification.permission === "granted") {
-    var randomNumber = Math.floor(Math.random() * (Tips.length));
-    var notification = new Notification(Tips[randomNumber]);
+    var notification = new Notification(Tips["randomNumber"]);
   }
 
   // Otherwise, we need to ask the user for permission
